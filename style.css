@@ -1,0 +1,26 @@
+
+
+.textarea {
+  width: 60%;
+  height:200px;
+  font-size: 10px;
+  background-color: rgba(70, 142, 190, 0.9);
+}
+
+p {
+  color: red;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: -1px -1px 1px #333333, 1px 1px #ffffff;
+  margin: 0;
+}
+
+.textA{
+  font-size: 50px;
+}
+.textB{
+  background-color:black ;
+}
+.textC{
+  font-size: 50px;
+}

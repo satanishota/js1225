@@ -59,9 +59,20 @@ function onkeyup() {
 
 const clickHandler = (e) => {
   if (collect.value === Answer){
-    window.alert('seikai');
+    window.alert('〇　まる');
   } else{
-    window.alert('batu');
+    window.alert('X　バツ');
   }};
   Answer.addEventListener('click', (e) => {
     clickHandler(e)});
+
+  textB.addEventListener('click', () =>{
+    textB.classList.toggle('textB2') 
+  });
+
+  const element = document.querySelector('#myrange')
+  element.addEventListener('input',handChange)
+  function handChange(event) {
+  const value2 = event.target.value
+  document.querySelector('.log').innerHTML = value2 + "文字隠す";
+};

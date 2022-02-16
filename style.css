@@ -9,16 +9,22 @@ section {
   margin-bottom: 10px;
   border-radius: 10px;
   padding: 20px;
-  color: white;
+  color: blue;
+  display: flex;
+
+
 }
 
-input[type=text] {
+p {
+  width: 100px;
+  height: 200px;
   border-radius: 5px;
-
-  border: 1px solid lightgray;
-  outline: none;
   background: white;
-  font-size: 2rem;
+  font-size: 50px;
 
-  padding: 10px;
+  margin: 10px;
+}
+
+.aka{
+  background: red;
 }
